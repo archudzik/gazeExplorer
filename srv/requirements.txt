@@ -1,0 +1,6 @@
+aiortc
+aiohttp
+aiohttp_cors
+dlib
+numpy
+opencv-contrib-python-headless
