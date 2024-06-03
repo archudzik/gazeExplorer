@@ -147,5 +147,3 @@ The **gazeExplorer** is open-sourced under the MIT License. However, **gazeExplo
 - **aiohttp_cors** and **aiortc**: MIT License
 
 We recommend reviewing the licenses of these individual libraries to ensure compliance with their terms when using **gazeExplorer**.
-
-```
