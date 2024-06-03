@@ -148,10 +148,4 @@ The **gazeExplorer** is open-sourced under the MIT License. However, **gazeExplo
 
 We recommend reviewing the licenses of these individual libraries to ensure compliance with their terms when using **gazeExplorer**.
 
-# References
-
-If you find the **gazeExplorer** project useful in your research or if it has inspired your work, please consider citing the following paper to support development:
-
-```
-Chudzik, Artur, Albert Śledzianowski, and Andrzej W. Przybyszewski. "Machine Learning and Digital Biomarkers Can Detect Early Stages of Neurodegenerative Diseases." Sensors 24.5 (2024): 1572.
 ```
