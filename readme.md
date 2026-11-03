@@ -147,3 +147,11 @@ The **gazeExplorer** is open-sourced under the MIT License. However, **gazeExplo
 - **aiohttp_cors** and **aiortc**: MIT License
 
 We recommend reviewing the licenses of these individual libraries to ensure compliance with their terms when using **gazeExplorer**.
+
+## Preserved model files and compatibility
+
+The `srv/model_*.dat` files are deliberately kept in the repository, including large landmark models. These are useful for reproducing the original demonstration and are not being moved to Git LFS or external downloads. Some individual models are close to GitHub's per-file size limit, so avoid replacing or repacking them without checking their source and distribution terms.
+
+The frontend's current `npm start` script uses Windows `set HTTPS=true` syntax. Users on other operating systems may need to set the environment variable separately rather than running that exact command unchanged. The Python backend depends on `dlib`, `aiortc`, OpenCV and other packages whose installation may vary by platform. This is a legacy demonstration, not a maintained distribution of its third-party models or a grant of new rights to them.
+
+The MIT license covers the original application code; bundled model weights and third-party dependencies remain subject to their respective authors' terms. Do not assume that the root license applies to the model files.
